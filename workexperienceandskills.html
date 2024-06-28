@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: midnightblue;
+}
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+} 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: x-large;
+    transition-duration: 0.7s;
+}
+nav ul li a:hover {
+    color: #a57c00;
+    cursor: pointer;
+}    
+aside{
+    grid-area: aside;
+    width: 18%;
+    background-color: white;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: larger;
+}
+main{
+    grid-area: main;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}  
+section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2{
+    border-bottom: 3px solid #a57c00;
+    font-size: xx-large;
+    padding-bottom: 10px;
+} 
+.job{
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+.skills{
+    font-size: x-large;
+}
+footer {
+        grid-area: footer;
+        font-size: x-large;
+        background-color: #a57c00;
+        padding: 30px;
+        text-align: center;
+        color: azure;
+}
+</style>
+    <meta charset="UTF-8">
+    <title>Work Experience and Skills</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="pictures/me.png" height="120px" width="120px" style="border-radius: 50%;">
+            <ul>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/index.html#">HOME</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/aboutme.html">ABOUT ME</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/achievements.html">ACHIEVEMENTS</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/educationbackground.html">EDUCATIONAL BACKGROUND</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/workexperienceandskills.html">WORK EXPERIENCE AND SKILLS</a></li> 
+            </ul>
+        </nav>
+        <aside>
+            <h2>Contact Information</h2>
+            <p><a href="mailto:adibahaziz2502@gmail.com"> AdibahAziz2502@gmail.com</a></p>
+            <p>Phone: 011-1234567</p>
+            <p><a href="https://www.instagram.com/maxverstappen1/">Instagram: @AdibahAziz</a></p>
+            <p><a href="https://www.facebook.com/MaxVerstappen">Facebook: @AdibahAziz</a></p>
+        </aside>
+        <main>
+            <section id="work-experience">
+              <h2>Work Experience</h2>
+              <div class="job">
+                <h3>Retail Associate</h3>
+                <p>Shopee Warehouse, 2023</p>
+                   <ul>
+                    <li>Managed inventory and restocked shelves</li>
+                    <li>Pick up orders and select products from the shelves</li>
+                   </ul>     
+              </div>      
+              <div class="job">
+                <h3>Freelance Job</h3>
+                <p>Self-employed, 2023-2024</p>
+                <ul>
+                    <li>Designed and developed custom work for clients</li>
+                    <li>Collaborated with clients to understand their requirements</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Bookstore Assistant</h3>
+                    <p>Kedai Buku, 2016-2018</p>
+                    <ul>
+                        <li>Managed the bookstore over the weekend</li>
+                        <li>Handled cash register transactions</li>
+                        <li>Helped customers locate information and resources</li>
+                        <li>Manage new books by put on the shelve by genres</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Good Communications</li>
+                    <li>Team Collaboration</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Computer Literacy Skills</h3>
+                <ul>
+                    <li>Digital Cataloging</li>
+                    <li>Information Retrieval Sytems</li>
+                    <li>Basic on HTML</li>
+                    <li>Good on Words and Microsoft Access</li>
+                </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p> &copy; Copyright 2024. Adibah Abdull Aziz. All rights reserved</p>
+        </footer>
+</body>
+</html>

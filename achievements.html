@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: midnightblue;
+}
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: x-large;
+    transition-duration: 0.7s;
+}
+nav ul li a:hover {
+    color: #a57c00;
+    cursor: pointer;
+}
+main {
+    grid-area: main;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+.achievement-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-size: larger;
+}
+.achievement-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.achievement-item:hover {
+    transform: translateY(-10px)
+}
+h2 {
+    border-bottom: 3px solid #a57c00;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    color: white;
+
+}
+p{
+    font-size: x-large;
+}
+footer {
+        grid-area: footer;
+        font-size: x-large;
+        background-color: #a57c00;
+        padding: 30px;
+        text-align: center;
+        color: azure;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="pictures/me.png" width="120px" height="120px" style="border-radius: 50%;" alt="">
+            <ul>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/index.html#">HOME</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/aboutme.html">ABOUT ME</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/achievements.html">ACHIEVEMENTS</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/educationbackground.html">EDUCATIONAL BACKGROUND</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/workexperienceandskills.html">WORK EXPERIENCE AND SKILLS</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="achievements">
+                <h2>ACHIEVEMENTS</h2>
+               <div class="achievement-list">
+                <div class="achievement-item">
+                    <h3>Winner of ABC Library Cataloging, 2025</h3>
+                    <p> Led a team to develop an innovative solution that won first place</p>
+               </div>
+               <div class="achievement-item">
+                    <h3> Dean's List, University Teknologi Mara, 2025</h3>
+                    <p>Maintained a GPA of 3.7 throughout my undergraduate studies</p>
+               </div>
+                <div class="achievement-item">
+                    <h3>Published Research Paper</h3>
+                    <p>Authored a paper on Bibliographic Cataloging in ABC Journal, 2025</p>
+               </div>
+               <div class="achievement-item">
+                    <h3>Google Professional Certificate</h3>
+                    <p>Completed the Library Science program in 2026</p>
+               </div>
+               <div class="achievement-item">
+                    <h3>Volunteer of the Year, 2023</h3>
+                    <p>Awarded by the Local Community Center for outstanding volunteer service</p>
+               </div>
+               </div>
+        </main>
+        <footer>
+            <p> &copy; Copyright 2024. Adibah Abdull Aziz. All rights reserved</p>
+        </footer>
+</body>
+</html>

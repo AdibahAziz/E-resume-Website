@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hero {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: midnightblue;
+}
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+nav ul li a:hover{
+    color: #a57c00;
+    cursor: pointer;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: x-large;
+    transition-duration: 0.7s;
+}
+.detail{
+    margin-top: 10%;
+    text-align: center;
+}
+.detail h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+.detail p{
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    font-size: x-large;
+}
+.images {
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s;left: 1s;
+}
+.detail a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.video-container{
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+video{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+aside{
+    float: right;
+    width: 320px;
+}
+footer {
+        grid-area: footer;
+        font-size: x-large;
+        background-color: #a57c00;
+        padding: 30px;
+        text-align: center;
+        color: azure;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+}
+    </style>
+    <title>HOME</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="pictures/logo.png" width="140px" height="140px" style="border-radius: 50%;" alt="">
+            <ul>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/index.html#">HOME</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/aboutme.html">ABOUT ME</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/achievements.html">ACHIEVEMENTS</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/educationbackground.html">EDUCATIONAL BACKGROUND</a></li>
+                <li><a href="file:///C:/Users/asus/OneDrive%20-%20Universiti%20Teknologi%20MARA/Documents/individual%20assigment%20IMS456/workexperienceandskills.html">WORK EXPERIENCE AND SKILLS</a></li>
+            </ul>
+        </nav>
+        <aside>
+        <div class="video-container">
+            <video width="320" height="240" controls>
+            <source src="videos/video resume.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+            </video>
+        </div>
+        </aside>
+  <div class="detail">
+    <h1>Welcome! My name is <span>Adibah Abdull Aziz</span></h1>
+    <p>This is my official website to show all of my informations. 
+        <br>You get to find out details about me, my educational background, my achievements and work experience and skills.
+    </p>
+</div>
+<footer> 
+    <p> &copy; Copyright 2024. Adibah Abdull Aziz. All rights reserved</p>
+    </footer>
+</body>
+</html>
